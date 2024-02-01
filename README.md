@@ -1,9 +1,1 @@
-
-  _                     _ _                   
- | |    ___  __ _  __ _| | |    ___ _ __  ___ 
- | |   / _ \/ _` |/ _` | | |   / _ \ '_ \/ __|
- | |__|  __/ (_| | (_| | | |__|  __/ | | \__ \
- |_____\___|\__, |\__,_|_|_____\___|_| |_|___/
-            |___/                             
-
-
+LegalLens is a text summarization app written in Java for the main purpose of summarizing legal Bills. The backend for the app runs on a flask server which can be operated on the local system itself. No summarization will take place without starting the server. The database used for this text summariazion is called [BillSum]https://arxiv.org/abs/1910.00523. and as of right now we have trained two models upon it. [Pegasus]https://arxiv.org/abs/1912.08777 and [Longformer]https://arxiv.org/abs/2004.05150
